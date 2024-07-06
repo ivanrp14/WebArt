@@ -1,0 +1,12 @@
+.products {
+  text-align: center;
+  padding: 20px;
+  padding-top: 80px; /* Añadir espacio superior */
+}
+
+.products__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

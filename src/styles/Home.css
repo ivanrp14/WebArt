@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Estilos del contenedor principal */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos del contenido principal */
+.home-content {
+  max-width: 12000px; /* Aumentado el ancho máximo */
+  padding: 250px; /* Aumentado el padding */
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px; /* Aumentado el borde redondeado */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Aumentada la sombra */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Animación de fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Estilos del título */
+.home-title {
+  font-size: 7rem; /* Aumentado el tamaño de la fuente */
+  margin-bottom: 30px; /* Aumentado el margen inferior */
+  color: #e91e63;
+}
+
+/* Estilos de la descripción */
+.home-description {
+  font-size: 3rem; /* Aumentado el tamaño de la fuente */
+  margin-bottom: 40px; /* Aumentado el margen inferior */
+  color: #666;
+}
+
+/* Estilos del botón */
+.explore-button {
+  display: inline-block;
+  padding: 20px 60px; /* Aumentado el padding */
+  font-size: 2.4rem; /* Aumentado el tamaño de la fuente */
+  color: #fff;
+  background-color: #e91e63;
+  border: none;
+  border-radius: 30px; /* Aumentado el borde redondeado */
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.explore-button:hover {
+  background-color: #d81b60;
+  transform: scale(1.05);
+}
+
+.explore-button:active {
+  background-color: #c2185b;
+  transform: scale(1);
+}
