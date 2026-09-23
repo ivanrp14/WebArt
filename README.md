@@ -1,29 +1,29 @@
 # WebArt
 
-Catálogo web para ver y “comprar” obras, bajo el nombre **MelTheDog**. Incluye búsqueda, ficha de obra, contacto y un contexto de autenticación.
+A web catalog for browsing and “buying” artworks, under the name **MelTheDog**. It includes search, an artwork card, contact, and a client-side auth context.
 
-## Páginas
+## Pages
 
-| Archivo | Qué es |
+| File | What it is |
 | --- | --- |
-| `src/pages/Home.jsx` | Portada (“Bienvenido a MelTheDog”) |
-| `src/pages/Products.jsx` | Obras |
-| `src/pages/Contact.jsx` | Contacto |
-| `src/components/ArtGrid.jsx` | Rejilla |
-| `src/components/ProductCard.jsx` | Tarjeta |
-| `src/components/SearchBar.jsx` | Búsqueda |
-| `src/components/Navbar.jsx` / `Footer.jsx` | Marco de la página |
-| `src/data/artData.js` | Datos locales de las obras |
-| `src/components/AuthContext.jsx` | Sesión en el cliente |
+| `src/pages/Home.jsx` | Landing (“Bienvenido a MelTheDog”) |
+| `src/pages/Products.jsx` | Artworks |
+| `src/pages/Contact.jsx` | Contact |
+| `src/components/ArtGrid.jsx` | Grid |
+| `src/components/ProductCard.jsx` | Card |
+| `src/components/SearchBar.jsx` | Search |
+| `src/components/Navbar.jsx` / `Footer.jsx` | Page frame |
+| `src/data/artData.js` | Local artwork data |
+| `src/components/AuthContext.jsx` | Client session |
 
 ## Stack
 
 - React 18
 - Vite
 - React Router
-- CSS propio en `src/styles`
+- Custom CSS in `src/styles`
 
-## Cómo ejecutarlo
+## How to run
 
 ```bash
 npm install
@@ -35,4 +35,4 @@ npm run build
 npm run preview
 ```
 
-Las obras de `artData.js` no salen de una API: para cambiar el catálogo se edita ese archivo.
+Artworks in `artData.js` do not come from an API: edit that file to change the catalog.
